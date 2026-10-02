@@ -14,11 +14,22 @@ DOMAIN-SUFFIX,ecto1.ai,PROXY
 DOMAIN-SUFFIX,whatsapp.com,PROXY
 DOMAIN-SUFFIX,whatsapp.net,PROXY
 # ---- ChatGPT（OpenAI）----
+# 核心
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,oaistatic.com,PROXY
 DOMAIN-SUFFIX,oaiusercontent.com,PROXY
-DOMAIN-SUFFIX,sora.chatgpt.com,PROXY
+DOMAIN-SUFFIX,oaistatsig.com,PROXY
+# CDN
+DOMAIN,cdn.openaimerge.com,PROXY
+# 第三方组件（精确到 Host，不代理整站，避免误伤其他 App）
+DOMAIN,cdn.workos.com,PROXY
+DOMAIN,forwarder.workos.com,PROXY
+DOMAIN,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,intercom.io,PROXY
+DOMAIN-SUFFIX,intercomcdn.com,PROXY
+DOMAIN-SUFFIX,ct.sendgrid.net,PROXY
+DOMAIN,humb.apple.com,PROXY
 # ---- 国外公共服务（2026-10-01 从 Shadowrocket 日志补入：走了直连但国内不可用/不稳定）----
 DOMAIN-SUFFIX,recaptcha.net,PROXY
 DOMAIN-SUFFIX,revenuecat.com,PROXY
