@@ -1,0 +1,28 @@
+#!name=自定义代理规则
+#!desc=Muse 自用：Muse / ChatGPT / 国外服务域名走代理。独立于配置文件，主配置更新不影响。
+
+[Rule]
+# ---- Muse（Meta 个人 AI 助手）----
+DOMAIN-SUFFIX,muse.ai,PROXY
+DOMAIN-SUFFIX,metaaivm.com,PROXY
+DOMAIN-SUFFIX,meta.ai,PROXY
+DOMAIN-SUFFIX,meta.com,PROXY
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+DOMAIN-SUFFIX,fbsbx.com,PROXY
+DOMAIN-SUFFIX,ecto1.ai,PROXY
+DOMAIN-SUFFIX,whatsapp.com,PROXY
+DOMAIN-SUFFIX,whatsapp.net,PROXY
+# ---- ChatGPT（OpenAI）----
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,sora.chatgpt.com,PROXY
+# ---- 国外公共服务（2026-10-01 从 Shadowrocket 日志补入：走了直连但国内不可用/不稳定）----
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,revenuecat.com,PROXY
+DOMAIN-SUFFIX,onesignal.com,PROXY
+DOMAIN-SUFFIX,stream-io-api.com,PROXY
+DOMAIN-SUFFIX,datadome.co,PROXY
+DOMAIN-SUFFIX,captcha-delivery.com,PROXY
