@@ -37,3 +37,5 @@ DOMAIN-SUFFIX,onesignal.com,PROXY
 DOMAIN-SUFFIX,stream-io-api.com,PROXY
 DOMAIN-SUFFIX,datadome.co,PROXY
 DOMAIN-SUFFIX,captcha-delivery.com,PROXY
+# ---- GitHub（主配置已覆盖 github.com / githubusercontent.com / github.io / githubassets.com，此处只补 githubapp.com）----
+DOMAIN-SUFFIX,githubapp.com,PROXY
