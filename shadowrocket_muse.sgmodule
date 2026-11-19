@@ -42,3 +42,5 @@ DOMAIN-SUFFIX,githubapp.com,PROXY
 # ---- 直连例外（模块规则优先于主配置，可覆盖其 PROXY 规则）----
 # 富途牛牛（2026-10-23 用户日志：futunn.com 被代理到新加坡节点，行情/交易改直连）
 DOMAIN-SUFFIX,futunn.com,DIRECT
+# gz-gcharge.com（2026-11-20 用户点名走直连）
+DOMAIN-SUFFIX,gz-gcharge.com,DIRECT
